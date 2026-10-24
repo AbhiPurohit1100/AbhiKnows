@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Scroll-reveal for sections ---
   const revealTargets = document.querySelectorAll(
-    '.section-header, .project-card, .contact-text, .contact-links, .footer-inner, .cronstar-card, .experience-item, .skill-card'
+    '.section-header, .project-card, .contact-text, .contact-links, .footer-inner, .experience-item, .skill-card'
   );
 
   revealTargets.forEach(el => el.classList.add('reveal'));
