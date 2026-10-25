@@ -53,6 +53,7 @@
         <nav id="main-nav" class="main-nav" aria-label="Main navigation">
           <a href="#experience" class="nav-link">Experience</a>
           <a href="#projects" class="nav-link">Projects</a>
+          <a href="#blog" class="nav-link">Blog</a>
           <a href="#skills" class="nav-link">Skills</a>
           <a href="#contact" class="nav-link">Contact</a>
         </nav>
@@ -239,6 +240,58 @@
           <span class="project-lang"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
         </a>
 
+      </div>
+    </section>
+
+    <!-- ===== BLOG ===== -->
+    <section id="blog" class="section">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Writing &amp; Notes</h2>
+          <p class="section-subtitle">Thoughts on system design, architectures, and engineering.</p>
+        </div>
+        <a href="blog/the-common-system-design-pattern.html" class="see-all-btn">1 Article</a>
+      </div>
+
+      <div class="blog-grid">
+        <article class="blog-card" id="blog-queue-worker">
+          <a href="blog/the-common-system-design-pattern.html" class="blog-card-visual"
+            aria-label="Read article on queue-worker architecture">
+            <img src="assets/queue_worker_architecture.png" alt="Queue-Worker System Design Architecture Diagram"
+              loading="lazy" class="blog-card-thumb">
+            <span class="blog-card-badge">System Design</span>
+          </a>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span class="blog-date">Oct 2026</span>
+              <span class="meta-dot">&bull;</span>
+              <span class="blog-read-time">3 min read</span>
+            </div>
+            <h3 class="blog-card-title">
+              <a href="blog/the-common-system-design-pattern.html">The common system-design pattern I notice
+                everywhere.</a>
+            </h3>
+            <p class="blog-card-desc">
+              Why queue-worker architecture seems overcomplicated for no reason until you run high-latency async
+              workloads like a code execution platform. How message queues act as temporary shock absorbers and decouple
+              heavy tasks.
+            </p>
+            <div class="blog-card-footer">
+              <div class="blog-tags">
+                <span class="blog-tag">Redis</span>
+                <span class="blog-tag">Queues</span>
+                <span class="blog-tag">Distributed Systems</span>
+              </div>
+              <a href="blog/the-common-system-design-pattern.html" class="blog-read-btn">
+                Read article
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
 
